@@ -1,3 +1,6 @@
+import Body from "./Body.jsx";
+import Footer from "./Footer";
+
 function Header() {
   return (
     <header>
@@ -11,19 +14,10 @@ function App() {
     <>
       <Header />
       <h1>헬로우 리액트</h1>
+      <Body />
+      {/* <Footer /> */}
     </>
   );
 }
 
 export default App;
-  return (
-    <>
-      <h1>헬로우 리액트</h1>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  );
-}
-
-export default App
